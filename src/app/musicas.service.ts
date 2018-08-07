@@ -16,7 +16,7 @@ export class MusicaService {
 
     }
 
-    public urlService: string = 'https://intense-ocean-93206.herokuapp.com/api/'
+    public urlService: string = 'http://localhost:9091/api/'
 
     public getMusicas(filter: string): Promise<any> {
         let apiUrl = this.urlService + "musicas/?filtro=" + filter;
