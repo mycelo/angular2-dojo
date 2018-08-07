@@ -82,7 +82,7 @@ export class HomeComponent implements OnInit {
     this.enqueuedDeletion = undefined;
   }
 
-  private updateEnqueuedDeletion(musica: Musica) {
+  public updateEnqueuedDeletion(musica: Musica) {
     
     if (!musica)
       return;
