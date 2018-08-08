@@ -10,7 +10,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class MusicService {
 	
-	private serviceUrl: string = 'https://intense-ocean-93206.herokuapp.com/api/';
+	private serviceUrl: string = 'http://localhost:9091/api/';
 
 	constructor(private http: Http) {}
 
